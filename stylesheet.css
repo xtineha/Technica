@@ -1,0 +1,140 @@
+body{
+	margin: 0;
+}
+
+h1{
+	position: absolute;
+	font-size: 50px;
+	font-family: 'DM Sans', sans-serif;
+	top: 20%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+}
+
+
+.logoup{
+  width:150px;
+  margin-top: 20px;
+  text-align: left;
+  margin-bottom:20px;
+}
+
+.menubar{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 30px 30px;
+	text-decoration: none;
+	font-family: 'DM Sans', sans-serif;
+	float: right;
+	font-size: 18px;
+}
+
+.menubar:hover{
+  color:#000000;
+  text-decoration: none;
+}
+
+#ulmenubar{
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	height: 80px;
+  	background-color: #8C9AFF;	
+}
+
+.background{
+	position: relative;
+	text-align: center;
+	height: 400px;
+	color: black;
+	margin: 0;
+}
+
+#mainPic{
+	width: 100%;
+	z-index: 0;
+}
+
+.searchBar{
+	position: relative;
+	height: 70px;
+	background-color: #9CFFE1;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 10px 10px;
+}
+
+.searchtext{
+	font-size: 20px;
+	font-family: 'DM Sans', sans-serif;
+	margin: 0;
+	color: black;
+	text-align: left;
+	padding-left: 35px;
+}
+
+.searchbar{
+	background-color: white;
+	width: 450px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	margin-left: 10px;
+	border-radius: 10px;
+}
+
+.lupa{
+	height: 25px;
+	float: left;
+}
+
+.text1{
+	font-family: 'DM Sans', sans-serif;
+	color: white;
+	font-size: 14px;
+	font-family: 'DM Sans', sans-serif;
+	text-align: justify;
+	padding-right: 500px;
+}
+
+.feed{
+	position: relative;
+	background-color: grey;
+	text-align: center;
+	margin: 0;
+	padding: 10px 10px;
+	height: 300px
+}
+
+.username{
+	font-size: 14px;
+	font-family: 'DM Sans', sans-serif;
+	margin: 15px;
+	color: black;
+	text-align: left;
+	padding: 20px;
+	padding-bottom: 5px;
+}
+
+.post1{
+	background-color: white;
+	border-radius: 30px;
+	width: 800px;
+	height: 250px;
+	margin: 20px;
+	text-align: center;
+}
+
+.active{
+  color:#000000;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 30px 30px;
+  font-family: 'DM Sans', sans-serif;
+  float: right;
+  font-size: 18px;
+}
